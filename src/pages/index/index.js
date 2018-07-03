@@ -6,6 +6,7 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
+    user: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
@@ -17,6 +18,8 @@ Page({
   },
   onLoad: function () {
     this.ctx.motto = 'Hello Echo'
+    this.ctx.user.name = 'Echo'
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
