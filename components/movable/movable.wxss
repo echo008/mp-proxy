@@ -1,0 +1,16 @@
+.movable-box {
+  width: 100vw;
+  height: 100vh;
+}
+.movable-btn {
+  position: fixed;
+  width: 120rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  background: #71CC10;
+  border-radius: 50%;
+  box-shadow: 0 24rpx 30rpx 0 rgba(64, 130, 8, .3);
+}

@@ -1,0 +1,9 @@
+<movable-area class='movable-box'>
+  <slot/>
+  <movable-view
+    wx:if='{{visible}}'
+    class='movable-btn'
+    x='{{x}}'
+    y='{{y}}'
+    direction='all'>店主</movable-view>
+</movable-area>
